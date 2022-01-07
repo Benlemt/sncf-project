@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* GENERALS STYLE FOR COMPONENTS */
+.title-component {
+    @apply text-lg text-gray-900 mb-0.5;
+}
+
+.description-component {
+    @apply text-sm text-gray-500 mb-4;
+}
+
+.container {
+    @apply p-4;
+}
+
+/* GENERALS STYLE FOR COMPONENTS (CHARTS) */
+.chart-container {
+    @apply border-b border-gray-100;
+}
+
+.canvas {
+    max-width: 443px;
+    max-height: 443px;
+}
+
+/* GENERALS STYLE FOR COMPONENTS (EQUIPMENTS) */
+.station-equipments-item {
+    @apply w-40 text-center;
+}
+
+.station-equipments-item img {
+    @apply block mx-auto;
+}
+
+.station-equipments-item p {
+    @apply mt-2 text-gray-500 text-sm;
+}
+
+/* HIDE MAPBOX LOGO */
+a.mapboxgl-ctrl-logo {
+    display: none;
+}
