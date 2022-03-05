@@ -4,11 +4,6 @@
 </div> 
 
 <h3 align="center">Projet IHM - Visualisation des données</h3>
-<p align="center">
-    <a href="http://164.92.218.111/">Utiliser l'application</a>
-    ·
-    <a href="https://www.youtube.com/watch?v=yQTjxWOKzyA">Vidéo de présentation (YouTube)</a>
-</p>
 
 <!-- TABLE OF CONTENTS -->
 <details>
